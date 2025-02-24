@@ -1,16 +1,42 @@
 [
     {
-    
-    
-        "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
     },
+        {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
+    },
+        {
+        "name": "Matplotlib",
+        "icon": "https://img.icons8.com/color/48/000000/bar-chart.png"
+    },
+        {
+        "name": "PostgreSql",
+        "icon": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+    },
+        {
+        "name": "Neo4j",
+        "icon": "https://img.icons8.com/?size=100&id=JmrEKk8cples&format=png&color=000000"
+    },
+    
 
     
     
     {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/?size=100&id=74402&format=png&color=000000"
+    },
+
+        {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+
+    
+        {
+        "name": "RStudio",
+        "icon": "https://img.icons8.com/?size=100&id=YYhSxUUW8osK&format=png&color=000000"
     },
     
     {
@@ -30,6 +56,17 @@
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
 
+        {
+        "name": "Django",
+        "icon": "https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=000000"
+    },
+
+            {
+        "name": "React Js",
+        "icon": "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000"
+    },
+
+    
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
