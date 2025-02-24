@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("service_4hmsyfu");
+        emailjs.init("y8dv0W509O0JY1NuD");
 
-        emailjs.sendForm(                                                               'contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm('service_4hmsyfu', 'template_4vem5el', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
@@ -52,6 +52,7 @@ $(document).ready(function () {
             });
         event.preventDefault();
     });
+    
     // <!-- emailjs to mail contact form data -->
 
 });
