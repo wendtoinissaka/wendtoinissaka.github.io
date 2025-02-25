@@ -338,7 +338,7 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    margin-top: -5rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -346,7 +346,57 @@ header .navbar ul li a:hover {
   .home .content p span {
     font-size: 2.2rem;
   }
+
+  .home {
+    padding-top: 3rem; /* Ajuster selon le besoin */
+  }
+
+  .home .content {
+    margin-top: 3rem; /* Décaler légèrement vers le bas */
+  }
+
+  .home .subtitle {
+    word-wrap: break-word;
+    white-space: normal;
+  }
 }
+
+
+@media (max-width: 320px) {
+  .home {
+    padding-top: 5rem; /* Ajuste selon la hauteur de la barre */
+  }
+
+  .home .content {
+    margin-top: 2rem; /* Décale le texte pour éviter qu'il soit caché */
+  }
+  
+  .home .content h1 {
+    font-size: 1.8rem; /* Réduction de la taille du titre */
+  }
+  
+  .home .content p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .home .btn {
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    width: 90%; /* Ajustement du bouton */
+  }
+
+  .socials {
+    /* margin-top: 1rem; */
+  }
+
+  .home .image img {
+    max-width: 60%; /* Évite qu'elle déborde */
+    margin-top: -3rem;
+  }
+}
+
+
 /* hero media queries ends*/
 /* hero section end */
 
