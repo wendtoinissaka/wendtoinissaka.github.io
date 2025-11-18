@@ -33,7 +33,6 @@
       { "name": "Matplotlib", "icon": "https://img.icons8.com/color/48/000000/bar-chart.png" },
       { "name": "TensorFlow", "icon": "https://img.icons8.com/color/48/000000/tensorflow.png" },
       { "name": "NLTK", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-      { "name": "spaCy", "icon": "https://cdn.jsdelivr.net/gh/explosion/spacy/images/spacy-logo.svg" },
       { "name": "Talend", "icon": "https://www.clipartmax.com/png/middle/193-1931343_talend-logo-talend-big-data-logo.png" },
       { "name": "RStudio", "icon": "https://img.icons8.com/?size=100&id=YYhSxUUW8osK&format=png&color=000000" }
     ]
