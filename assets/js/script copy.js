@@ -81,69 +81,30 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-// async function fetchData(type = "skills") {
-//     let response
-//     type === "skills" ?
-//         response = await fetch("skills.json")
-//         :
-//         response = await fetch("./projects/projects.json")
-//     const data = await response.json();
-//     return data;
-// }
-
-// function showSkills(skills) {
-//     let skillsContainer = document.getElementById("skillsContainer");
-//     let skillHTML = "";
-//     skills.forEach(skill => {
-//         skillHTML += `
-//         <div class="bar">
-//               <div class="info">
-//                 <img src=${skill.icon} alt="skill" />
-//                 <span>${skill.name}</span>
-//               </div>
-//             </div>`
-//     });
-//     skillsContainer.innerHTML = skillHTML;
-// }
-
-async function fetchSkills() {
-    const response = await fetch("skills.json");
-    return await response.json();
+async function fetchData(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skills.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
 }
 
-function showSkills(categories) {
-    const container = document.getElementById("skillsContainer");
-    let html = "";
-
-    categories.forEach(category => {
-        html += `
-            <div class="skill-category">
-                <h3 class="category-title">${category.category}</h3>
-
-                <div class="row">
-        `;
-
-        category.skills.forEach(skill => {
-            html += `
-                <div class="bar">
-                    <div class="info">
-                        <img src="${skill.icon}" alt="${skill.name}" style="width:60px;height:60px;" />
-                        <span>${skill.name}</span>
-                    </div>
-                </div>
-            `;
-        });
-
-        html += `
-                </div> <!-- .row -->
-            </div> <!-- .skill-category -->
-        `;
+function showSkills(skills) {
+    let skillsContainer = document.getElementById("skillsContainer");
+    let skillHTML = "";
+    skills.forEach(skill => {
+        skillHTML += `
+        <div class="bar">
+              <div class="info">
+                <img src=${skill.icon} alt="skill" />
+                <span>${skill.name}</span>
+              </div>
+            </div>`
     });
-
-    container.innerHTML = html;
+    skillsContainer.innerHTML = skillHTML;
 }
-
-fetchSkills().then(showSkills);
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");

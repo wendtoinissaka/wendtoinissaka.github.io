@@ -540,6 +540,7 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   gap: 1.8rem;
 }
+
 .skills .container .bar {
   margin-bottom: 15px;
   padding: 10px;
@@ -585,6 +586,22 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
+
+/* Titre des catégories */
+.skill-category {
+  margin-bottom: 40px;
+}
+
+.skill-category .category-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #ffe600;
+  text-align: left;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+
 /* skills media queries ends*/
 /* skills section ends */
 
