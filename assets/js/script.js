@@ -64,7 +64,8 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Fait un tour sur mon Portfolio";
+            // document.title = "Come Back To Portfolio";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
